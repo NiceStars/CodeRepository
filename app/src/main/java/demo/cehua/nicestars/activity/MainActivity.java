@@ -63,7 +63,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         adapter = new ResultAdapter(this);
         search_btn.setOnClickListener(this);
         titlename = (TextView) findViewById(R.id.title_name);
-        titlename.setText("天气预报--—|———");
+        titlename.setText("天气预报--—|———|-————");
 
         //启动服务
        // Intent intent = new Intent(MainActivity.this, RemindService.class);
