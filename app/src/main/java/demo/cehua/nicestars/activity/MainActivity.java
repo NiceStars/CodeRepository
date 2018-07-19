@@ -88,7 +88,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         RequestParams params = new RequestParams();//请求参数
         params.addFormDataPart("cityname", cityname);//城市名称
         HttpUtil.post(Global.url, params, this);
-        //1
+        //1-2
 
     }
 
