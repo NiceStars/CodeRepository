@@ -3,6 +3,7 @@
     package="demo.cehua.nicestars.activity">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="utils.MyApplication"
         android:allowBackup="true"
@@ -12,10 +13,10 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar">
         <activity
-            android:name="demo.cehua.nicestars.activity.OptionsActivity"
+            android:name=".OptionsActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:launchMode="singleTop">
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +27,6 @@
         <receiver
             android:name="utils.Receiver"
             android:enabled="true">
-
             <intent-filter>
                 <action android:name="RemindAction" />
             </intent-filter>
@@ -36,10 +36,9 @@
             android:name="utils.RemindService"
             android:enabled="true" />
 
-        <!--天气预报页-->
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".ZipCodeActivity"/>
+        <!-- 天气预报页 -->
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ZipCodeActivity" />
     </application>
-
 
 </manifest>
