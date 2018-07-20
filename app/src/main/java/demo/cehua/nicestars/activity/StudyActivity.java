@@ -23,6 +23,8 @@ public class StudyActivity extends AppCompatActivity{
         //提交一次东西
 
 
+        //提交两次
+
 
     }
 }
