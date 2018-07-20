@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 /**
  * Time:2018/7/20
- * Anthor:NiceStars
+ * @Author:NiceStars
  * Description:
  */
 public class StudyActivity extends AppCompatActivity{
@@ -20,6 +20,7 @@ public class StudyActivity extends AppCompatActivity{
         this.getMainLooper();
 
         Toast.makeText(this, "this.dev branch", Toast.LENGTH_SHORT).show();
+
 
     }
 }
