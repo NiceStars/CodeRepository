@@ -18,8 +18,10 @@ public class StudyActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState, persistentState);
         setContentView(R.layout.activity_study);
         this.getMainLooper();
-
         Toast.makeText(this, "this.dev branch", Toast.LENGTH_SHORT).show();
+
+        //提交一次东西
+
 
 
     }
